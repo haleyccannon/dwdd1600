@@ -1,0 +1,200 @@
+body {
+   font-family: 'Hahmlet', serif;
+   font-size: 15px;
+    font-weight: 300;
+    margin:0;    
+}
+
+/* Header Stuff Here*/ 
+header {
+    background-color: #2e4066;
+    padding: 3rem 3vw;
+}
+header h1{
+    margin: 0;
+    color: #9eb2de;
+}
+header p {
+    margin: 0;
+    color: #e7e6e2;
+    letter-spacing: .5px;
+}
+
+/* nav stuff goes here */
+nav{ 
+    background-color: #dec29e
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #2e4066;
+    font-weight: 600;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+   background-color: #2e4066;
+    color: #dec29e;
+}
+nav a:hover{
+    color: #fff;
+}
+
+
+/* stuff for the main */
+main{
+    padding: 1.5rem 2vw;
+}
+main h1 {
+    color: #9eb2de;
+}
+
+main h2 {
+    color: #2e4066;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #2e4066;
+    margin: 0 0 .3rem 0;
+}
+
+main ol{
+    padding: .5rem 3vw;
+    background-color: #e7e6e2;
+}
+
+main dl dt {
+    color: #9eb2de;
+    font-weight: 700;
+}
+main dl dd {
+    color: #2e4066;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address{
+    font-style: normal;
+    background-color: #dec29e;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1.2px solid #024873;
+    border-radius: .4rem;
+}
+
+main a {
+    color: #024873;   
+}
+main a:hover {
+    color: #dec29e;   
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 3 2;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption{
+    text-align:center;
+    font-size: .8rem;
+}
+
+div.gallery{
+   display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure{
+    margin:.5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #024873
+}
+
+.myForm fieldset {
+    border: 1.2px solid #9eb2de;
+    border-radius: 4px;
+    margin-bottom: 1.2rem; 
+}
+.myForm legend {
+    color: #024873;
+    font-size: .8rem;
+}
+.myForm label{
+    margin: .3rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea, .myForm [type=email] {
+   display: block
+}
+.myForm [type=text], .myForm [type=tel], .myForm select,.myForm textarea, .myForm [type=email] {
+    border: solid 1px #aaa;
+    padding: .3rem;
+    width:22opx;
+    border-radius: 4px;
+    font-family: 'Hahmlet', serif;
+    font-weight: 300;
+}
+.myForm textarea{
+    height: 7rem;   
+}
+
+.myForm :required {
+    background-color: #dec29e;
+}
+
+.myForm [type=submit]{
+    background-color: #9eb2de;
+    border:none;
+    padding: 1rem 2rem;
+    border-radius:5px;
+    color:white;
+    margin: 1rem 0 0 .5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Stuff Here*/
+footer {
+    background-color: #2e4066;
+    text-align: center;
+    color: #9eb2de;
+    padding:1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #9eb2de;
+}
+
+
+
